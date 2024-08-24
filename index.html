@@ -4,19 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/23f17b6812.js" crossorigin="anonymous"></script>
 
     <title>Justice</title>
-  <link rel="stylesheet" crossorigin href="./assets/index-BGeTUd1K.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-BTcxzF_J.css">
 </head>
 
 <body>
-    <header class="container px-8 py-12 mb-20">
+    <header class="container px-8 py-12 mb-20 mx-auto">
         <nav>
             <div class="navbar">
                 <div class="navbar-start">
@@ -58,8 +61,23 @@
         </nav>
 
         <!-- Banner section -->
-        <section>
-            
+        <section class="relative bg-[url('images/banner.png')] bg-cover bg-center h-auto w-full flex flex-col items-center justify-center py-24 space-y-8 my-8 rounded-lg">
+            <div class="absolute inset-0 bg-gradient-to-b from-[#111111] to-[#11111100] rounded-lg"></div>
+
+            <div class="relative w-3/5 lg:space-y-12 space-y-6 z-10">
+                <h1 class="text-white font-extrabold font-garamond text-center text-2xl lg:text-7xl md:text-5xl">We
+                    Provide
+                    Effective Legal Solutions</h1>
+                <p class="font-poppins text-Dark_06 text-center text-sm">There are many variations of passages of Lorem
+                    Ipsum available, but the majority have suffered alteration
+                    in some form, by injected humour.</p>
+            </div>
+            <div class="relative z-10 w-auto mx-auto flex items-center justify-center gap-4">
+                <input
+                    class="px-8 py-3 w-full mx-auto rounded-lg placeholder:font-poppins placeholder:text-Dark_04 focus:outline-none"
+                    placeholder="Search your services" type="search" name="" id="">
+                <button class="btn bg-primary_bg text-white font-poppins font-semibold">Search</button>
+            </div>
         </section>
     </header>
 
